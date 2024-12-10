@@ -7,7 +7,7 @@ def number_test():
 
 
 
-file = open('E:/reprisitoriy/reprisitoriy/reprisitoriy/files/article.txt', 'r', encoding='utf-8')
+file = open('./article.txt', 'r', encoding='utf-8')
 f = []
 file = (file.read()).split('\n')
 
@@ -39,7 +39,7 @@ print(f'Слово с максимальной длинной в {max_world_len}
 
 
 name = input(f'Введите название файла:\n')
-new_file = open(f'E:/reprisitoriy/reprisitoriy/reprisitoriy/files/{name}.txt', 'w')
+new_file = open(f'./{name}.txt', 'w')
 
 
 a = input(f"Файл редактируется. Введите что-то:\n")

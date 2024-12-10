@@ -1,6 +1,6 @@
 import pandas as pd
 
-file = open("reprisitoriy/reprisitoriy/files/NISPUF17.csv")
+file = open("./NISPUF17.csv")
 df = pd.read_csv(file, sep=',', encoding='utf-8')
 
 len = len(df['SEX'])
